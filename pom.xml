@@ -7,6 +7,7 @@
         <module>spring-eureka-server</module>
         <module>spring-eureka-clientWorker</module>
         <module>clientConsumer</module>
+        <module>spring-eureka-workerInfo</module>
     </modules>
 
     <groupId>com.example.eureka</groupId>

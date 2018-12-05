@@ -14,7 +14,7 @@ public class Errand
     private long id;
     private int taskNr;
     private String description;
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "worker_id")
     private Worker worker;
 

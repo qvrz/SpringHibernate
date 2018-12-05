@@ -9,6 +9,7 @@
         <module name="spring-eureka-clientConsumer" />
         <module name="spring-eureka-clientWorker" />
         <module name="spring-eureka-server" />
+        <module name="springeurekaworkerInfo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

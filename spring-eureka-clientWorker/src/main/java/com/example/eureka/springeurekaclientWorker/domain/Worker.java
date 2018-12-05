@@ -1,6 +1,7 @@
 package com.example.eureka.springeurekaclientWorker.domain;
 
 import com.example.eureka.springeurekaclientWorker.domain.Errand;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.collect.Lists;
 
 import javax.persistence.*;
@@ -21,6 +22,7 @@ public class Worker
     private int deskNr;
     private int freedaysLeft;
 
+    @JsonIgnore
     @OneToMany(
             mappedBy = "worker",
             cascade = CascadeType.ALL,

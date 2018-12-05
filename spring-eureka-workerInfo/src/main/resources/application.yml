@@ -1,5 +1,5 @@
 server:
-  port: 8099    #default port where the service will be started
+  port: 8097    #default port where the service will be started
 
 eureka:         #tells about the Eureka server details and its refresh time
   instance:
@@ -15,7 +15,7 @@ eureka:         #tells about the Eureka server details and its refresh time
 
 spring:
   application:
-    name: worker-consumer-service   #current service name to be used by the eureka server
+    name: worker-info-service   #current service name to be used by the eureka server
   datasource:
     url: jdbc:mysql://localhost:3306/integracja?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
